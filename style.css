@@ -1,0 +1,75 @@
+body{
+	
+	margin: 0 ;
+	background-color: white;
+}
+header{
+	
+	background-color: grey;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	font-family: "Times New Roman";
+}
+nav{
+	
+	overflow: hidden;
+	background-color: #333;
+}
+nav a{
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	padding: 14px 16px ;
+}
+nav a:hover{
+	background-color: grey;
+	color: white;
+}
+.column{
+
+	float: left;
+	padding: 10px;
+}
+.column.side{
+	width: 20%;
+	
+}
+.column.middle{
+	width: 50%;
+	
+}
+footer{
+	clear: both;
+	background-color: grey;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+div.gallery{
+	margin: 5px;
+	border: 5px solid black;
+	float: left;
+	width: 180px;
+}
+div.gallery img{
+	width: 100%;
+	height: auto;
+}
+input[type=text], select, textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+@media screen and (max-width: 617px){
+	.column.side,.column.middle{
+		width: 100%;
+	}
+}
+p{
+	text-align: justify;
+
+}
